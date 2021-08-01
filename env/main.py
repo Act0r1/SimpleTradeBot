@@ -91,7 +91,7 @@ def on_message(ws, message):
 
 
 def main():
-    coin = 'ethusdt'
+    coin = 'btcusdt'
     interval = '1m'
     socket = f'wss://stream.binance.com:9443/ws/{coin}@kline_{interval}'
     ws = websocket.WebSocketApp(socket, on_message=on_message)
