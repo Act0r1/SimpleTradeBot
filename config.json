@@ -1,0 +1,10 @@
+{
+      "robot" :{
+            "gap" : 1.0,
+            "gap_ignore" : 50.0
+      },
+
+      "other_config": {
+            "symbols": "BTCUSDT"
+      }
+}
